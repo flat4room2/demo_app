@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Content:</b>
+  <%= @micropoft.content %>
+</p>
+
+<p>
+  <b>User:</b>
+  <%= @micropoft.user_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_micropoft_path(@micropoft) %> |
+<%= link_to 'Back', micropofts_path %>

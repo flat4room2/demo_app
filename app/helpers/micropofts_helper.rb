@@ -1,0 +1,2 @@
+module MicropoftsHelper
+end
